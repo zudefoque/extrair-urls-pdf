@@ -1,19 +1,37 @@
-# pdfurls
+# lemonpdf
 
 ### Python3 library to get urls from PDF files.
 
 
 ### Install
-
-    pip install pdfurls
+    sudo apt install tesseract-ocr poppler-utils
+    pip install lemonpdf
 
 ### Quickstart
 
 
 ### Command line interface use (CLI)
 
-    pdfurls file.pdf
+    lemonpdf file.pdf
 
 #### save file
 
-    pdfurls file.pdf --output  urls.txt --save
+    lemonpdf file.pdf --output  urls.txt --save
+
+#### scripts
+
+```python
+
+from lemonpdf import Extractor
+
+pdf_path = 'file.pdf'
+output_txt_path = 'out_file.txt'
+
+extractor = Extractor(pdf_path=pdf_path, output_txt_path=output_txt_path)
+
+urls = extractor.extract_urls_from_pdf(save=True)
+
+print(urls)
+
+
+```
