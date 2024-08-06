@@ -1,0 +1,6 @@
+packaging
+pdf2image
+pillow
+PyMuPDF
+PyMuPDFb
+pytesseract

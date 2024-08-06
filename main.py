@@ -1,7 +1,7 @@
-from pdfurls import Extractor
+from lemonpdf import Extractor
 
-pdf_path = 'arquivo.pdf'
-output_txt_path = 'arquivo.txt'
+pdf_path = 'file.pdf'
+output_txt_path = 'out_file.txt'
 
 extractor = Extractor(pdf_path=pdf_path, output_txt_path=output_txt_path)
 

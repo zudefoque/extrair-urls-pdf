@@ -1,0 +1,2 @@
+[console_scripts]
+pdfurls = pdfurls.cli:main
