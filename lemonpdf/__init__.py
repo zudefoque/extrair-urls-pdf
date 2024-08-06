@@ -1,1 +1,1 @@
-from lemonpdf.__main__ import Extrator
+from lemonpdf.__main__ import Extractor
