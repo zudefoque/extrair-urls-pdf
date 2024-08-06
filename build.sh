@@ -1,9 +1,9 @@
 #!/bin/bash
 
 git add .
-git commit -m 'update'
+git commit -m 'fix cli'
 git push -u origin dev
-git tag v1.0-rc7
+git tag v1.0-rc8
 git push --tag
 make clean
 make upload

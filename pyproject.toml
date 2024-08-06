@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lemonpdf"
-version = "1.0-rc7"
+version = "1.0-rc8"
 authors = [
   { name="Juan Bindez", email="juanbindez780@gmail.com" },
   { name="zudefoque"},
@@ -43,15 +43,15 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/juanbindez/pdfurls"
-"Bug Reports" = "https://github.com/juanbindez/pdfurls/issues"
-"Read the Docs" = "http://pdfurls.readthedocs.io/"
+"Homepage" = "https://github.com/juanbindez/lemonpdf"
+"Bug Reports" = "https://github.com/juanbindez/lemonpdf/issues"
+"Read the Docs" = "http://lemonpdf.readthedocs.io/"
 
 [project.scripts]
-pdfurls = "pdfurls.cli:main"
+lemonpdf = "lemonpdf.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["pdfurls*"]
+include = ["lemonpdf*"]
 
 [tool.setuptools]
 license-files = ["LICENSE"]
