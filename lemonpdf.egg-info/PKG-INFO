@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: lemonpdf
-Version: 1.0rc4
+Version: 1.0rc5
 Summary: Python3 library to get urls from PDF files.
 Author: zudefoque
 Author-email: Juan Bindez <juanbindez780@gmail.com>
@@ -35,22 +35,40 @@ Requires-Dist: PyMuPDF
 Requires-Dist: PyMuPDFb
 Requires-Dist: pytesseract
 
-# pdfurls
+# lemonpdf
 
 ### Python3 library to get urls from PDF files.
 
 
 ### Install
-
-    pip install pdfurls
+    sudo apt install tesseract-ocr poppler-utils
+    pip install lemonpdf
 
 ### Quickstart
 
 
 ### Command line interface use (CLI)
 
-    pdfurls file.pdf
+    lemonpdf file.pdf
 
 #### save file
 
-    pdfurls file.pdf --output  urls.txt --save
+    lemonpdf file.pdf --output  urls.txt --save
+
+#### scripts
+
+```python
+
+from lemonpdf import Extractor
+
+pdf_path = 'file.pdf'
+output_txt_path = 'out_file.txt'
+
+extractor = Extractor(pdf_path=pdf_path, output_txt_path=output_txt_path)
+
+urls = extractor.extract_urls_from_pdf(save=True)
+
+print(urls)
+
+
+```

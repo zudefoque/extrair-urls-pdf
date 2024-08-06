@@ -1,5 +1,10 @@
 # lemonpdf
 
+![PyPI - Downloads](https://img.shields.io/pypi/dm/lemonpdf)
+![PyPI - License](https://img.shields.io/pypi/l/lemonpdf)
+![GitHub Tag](https://img.shields.io/github/v/tag/JuanBindez/lemonpdf?include_prereleases)
+<a href="https://pypi.org/project/lemonpdf/"><img src="https://img.shields.io/pypi/v/lemonpdf" /></a>
+
 ### Python3 library to get urls from PDF files.
 
 
