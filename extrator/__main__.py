@@ -50,8 +50,3 @@ def extract_urls_from_pdf(pdf_path, output_txt_path):
     with open(output_txt_path, 'w') as output_file:
         for url in urls:
             output_file.write(url + '\n')
-
-# Example usage
-pdf_path = '/caminho/para/seu_arquivo.pdf'  # Substitua pelo caminho correto do seu arquivo PDF
-output_txt_path = 'urls_extraidas.txt'
-extract_urls_from_pdf(pdf_path, output_txt_path)

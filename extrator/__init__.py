@@ -1,0 +1,1 @@
+from extrator.__main__ import extract_urls_from_pdf

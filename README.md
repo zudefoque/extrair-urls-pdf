@@ -4,7 +4,7 @@ Este projeto contém um script Python que extrai todas as URLs de um arquivo PDF
 
 ## Requisitos
 
-- Python 3
+- Python 3.8+
 - Bibliotecas Python: `pymupdf`, `pytesseract`, `pdf2image`
 - Poppler (para manipulação de PDFs)
 - Tesseract-OCR => https://github.com/tesseract-ocr/tesseract
@@ -16,6 +16,7 @@ Este projeto contém um script Python que extrai todas as URLs de um arquivo PDF
 ```bash
 sudo apt install python3-venv python3-pip
 sudo apt install tesseract-ocr poppler-utils
+pip install -r requirements.txt
 ````
 
 ## Uso
@@ -34,7 +35,7 @@ Coloque o caminho do arquivo PDF no script extrair_urls.py e execute:
 
 
 ```bash
-python extrair_urls.py
+python3 main.py
 ````
 
 Este script faz o seguinte:
