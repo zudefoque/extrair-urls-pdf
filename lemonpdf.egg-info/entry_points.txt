@@ -1,2 +1,2 @@
 [console_scripts]
-pdfurls = pdfurls.cli:main
+lemonpdf = lemonpdf.cli:main

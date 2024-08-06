@@ -1,13 +1,13 @@
 Metadata-Version: 2.1
 Name: lemonpdf
-Version: 1.0rc5
+Version: 1.0rc8
 Summary: Python3 library to get urls from PDF files.
 Author: zudefoque
 Author-email: Juan Bindez <juanbindez780@gmail.com>
 License: MIT license
-Project-URL: Homepage, https://github.com/juanbindez/pdfurls
-Project-URL: Bug Reports, https://github.com/juanbindez/pdfurls/issues
-Project-URL: Read the Docs, http://pdfurls.readthedocs.io/
+Project-URL: Homepage, https://github.com/juanbindez/lemonpdf
+Project-URL: Bug Reports, https://github.com/juanbindez/lemonpdf/issues
+Project-URL: Read the Docs, http://lemonpdf.readthedocs.io/
 Keywords: PDF,Extractor,cli,tools
 Classifier: Development Status :: 5 - Production/Stable
 Classifier: Environment :: Console
@@ -36,6 +36,11 @@ Requires-Dist: PyMuPDFb
 Requires-Dist: pytesseract
 
 # lemonpdf
+
+![PyPI - Downloads](https://img.shields.io/pypi/dm/lemonpdf)
+![PyPI - License](https://img.shields.io/pypi/l/lemonpdf)
+![GitHub Tag](https://img.shields.io/github/v/tag/JuanBindez/lemonpdf?include_prereleases)
+<a href="https://pypi.org/project/lemonpdf/"><img src="https://img.shields.io/pypi/v/lemonpdf" /></a>
 
 ### Python3 library to get urls from PDF files.
 

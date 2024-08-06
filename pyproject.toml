@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lemonpdf"
-version = "1.0-rc8"
+version = "1.0-rc9"
 authors = [
   { name="Juan Bindez", email="juanbindez780@gmail.com" },
   { name="zudefoque"},

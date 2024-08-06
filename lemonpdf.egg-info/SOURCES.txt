@@ -1,5 +1,9 @@
 README.md
 pyproject.toml
+lemonpdf/__init__.py
+lemonpdf/__main__.py
+lemonpdf/cli.py
+lemonpdf/version.py
 lemonpdf.egg-info/PKG-INFO
 lemonpdf.egg-info/SOURCES.txt
 lemonpdf.egg-info/dependency_links.txt

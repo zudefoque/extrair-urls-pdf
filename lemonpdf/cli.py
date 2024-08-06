@@ -1,5 +1,5 @@
 import argparse
-from lemonpdf import Extractor
+from lemonpdf.__main__ import Extractor
 
 def main():
     parser = argparse.ArgumentParser(description='Extract URLs from a PDF file.')
