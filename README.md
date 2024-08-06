@@ -15,6 +15,7 @@ Este projeto contém um script Python que extrai todas as URLs de um arquivo PDF
 ```bash
 sudo apt install python3-venv python3-pip
 sudo apt install tesseract-ocr poppler-utils
+````
 
 ## Uso
 
@@ -22,4 +23,4 @@ Coloque o caminho do arquivo PDF no script extrair_urls.py e execute:
 
 ```bash
 python extrair_urls.py
-
+````
