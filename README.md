@@ -17,13 +17,25 @@
 
 ### Command line interface use (CLI)
 
-    lemonpdf file.pdf
+#### get urls
 
-#### save file
+    lemonpdf -u file.pdf
 
-    lemonpdf file.pdf --output  urls.txt --save
+#### save urls list in file txt
 
-#### scripts
+    lemonpdf -u file.pdf -o urls.txt -s
+
+#### get domains
+
+    lemonpdf -d file.pdf
+
+#### save domains in file txt
+
+    lemonpdf -d file.pdf -o domains.txt -s
+
+### scripts
+
+#### get urls and save file txt
 
 ```python
 
@@ -35,6 +47,23 @@ output_txt_path = 'out_file.txt'
 extractor = Extractor(pdf_path=pdf_path, output_txt_path=output_txt_path)
 
 urls = extractor.extract_urls_from_pdf(save=True)
+
+print(urls)
+
+
+```
+
+#### get domains and save file txt
+
+```python
+from lemonpdf import Extractor
+
+pdf_path = 'file.pdf'
+output_txt_path = 'domains.txt'
+
+extractor = Extractor(pdf_path=pdf_path, output_txt_path=output_txt_path)
+
+urls = extractor.extract_domains_from_pdf(save=True)
 
 print(urls)
 

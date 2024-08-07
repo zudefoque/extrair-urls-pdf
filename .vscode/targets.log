@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug  6 17:10:52 2024
+# Make data base, printed on Wed Aug  7 11:04:42 2024
 
 # Variables
 
@@ -49,7 +51,7 @@ VSCODE_CODE_CACHE_PATH = /home/estoque/.config/Code/CachedData/b1c0a14de1414fcda
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.AWH2R2
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.8EJGS2
 # default
 .LOADED := 
 # default
@@ -62,8 +64,6 @@ CURDIR := /home/estoque/Área de Trabalho/lemonpdf
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
-# environment
-VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -85,13 +85,13 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 42751
+VSCODE_PID = 9139
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/juan:@/tmp/.ICE-unix/2775,unix/juan:/tmp/.ICE-unix/2775
+SESSION_MANAGER = local/juan:@/tmp/.ICE-unix/2737,unix/juan:/tmp/.ICE-unix/2737
 # automatic
 *F = $(notdir $*)
 # environment
@@ -133,7 +133,7 @@ LANGUAGE = pt_BR:pt:en
 # automatic
 ^F = $(notdir $^)
 # environment
-INVOCATION_ID = 8d3da297fc804d06b9e653d902dd5b07
+INVOCATION_ID = 0e089e48c47949bba340db64568de7c2
 # environment
 USERNAME = estoque
 # environment
@@ -159,7 +159,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := dev
 # environment
-SYSTEMD_EXEC_PID = 2801
+SYSTEMD_EXEC_PID = 2761
 # environment
 DISPLAY = :0
 # environment
@@ -169,17 +169,17 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 2566
+MANAGERPID = 2531
 # environment
 DEBUGINFOD_URLS = https://debuginfod.ubuntu.com 
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 42751
+GIO_LAUNCHED_DESKTOP_FILE_PID = 9139
 # environment
 _ = /usr/share/code/code
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:39912
+JOURNAL_STREAM = 8:38201
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -207,7 +207,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 GDMSESSION = ubuntu
 # variable set hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=3/129=2%
+# Load=97/1024=9%, Rehash=0, Collisions=2/128=2%
 
 # Pattern-specific Variable Values
 
@@ -218,7 +218,7 @@ bump_% :
 # 1 pattern-specific variable values
 # Directories
 
-# . (device 2051, inode 6161048): 15 files, no impossibilities.
+# . (device 2051, inode 6178541): 15 files, no impossibilities.
 
 # 15 files, no impossibilities in 1 directories.
 
@@ -272,7 +272,7 @@ clean-pyc:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2024-08-06 17:10:32.336629631
+#  Last modified 2024-08-07 11:03:39.730304957
 #  File has been updated.
 #  Successfully updated.
 
@@ -280,11 +280,9 @@ deploy-minor: clean requirements bumpversion-minor upload clean
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
-make: *** No rule to make target 'all'.  Stop.
-
 
 bumpversion-major: bump_major push_bump
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -405,12 +403,12 @@ clean-build:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 41 / storage = 404 B / avg = 9 B
-# current buf: size = 8162 B / used = 404 B / count = 41 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 41 / storage = 410 B / avg = 10 B
+# current buf: size = 8162 B / used = 410 B / count = 41 / avg = 10 B
 
 # strcache performance: lookups = 84 / hit rate = 51%
 # hash-table stats:
 # Load=41/8192=1%, Rehash=0, Collisions=0/84=0%
-# Finished Make data base on Tue Aug  6 17:10:52 2024
+# Finished Make data base on Wed Aug  7 11:04:42 2024
 
  
