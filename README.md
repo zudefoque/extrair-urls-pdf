@@ -46,7 +46,7 @@ output_txt_path = 'out_file.txt'
 
 extractor = Extractor(pdf_path=pdf_path, output_txt_path=output_txt_path)
 
-urls = extractor.extract_urls_from_pdf(save=True)
+urls = extractor.extract_urls(save=True)
 
 print(urls)
 
@@ -63,7 +63,7 @@ output_txt_path = 'domains.txt'
 
 extractor = Extractor(pdf_path=pdf_path, output_txt_path=output_txt_path)
 
-urls = extractor.extract_domains_from_pdf(save=True)
+urls = extractor.extract_domains(save=True)
 
 print(urls)
 

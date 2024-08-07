@@ -22,9 +22,9 @@ def main():
     
     # Extract URLs or domains based on the user's choice
     if args.u:
-        extracted_data = extractor.extract_urls_from_pdf(save=args.save)
+        extracted_data = extractor.extract_urls(save=args.save)
     elif args.d:
-        extracted_data = extractor.extract_domains_from_pdf(save=args.save)
+        extracted_data = extractor.extract_domains(save=args.save)
 
     # Display the extracted URLs/domains if not saving to a file
     if not args.save and extracted_data:
