@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=67.4.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lemonpdf"
+version = "2.0.0"
+authors = [
+  { name="Juan Bindez", email="juanbindez780@gmail.com" },
+  { name="zudefoque"},
+]
+description = "Python3 library to get urls from PDF files."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT license"}
+keywords = ["PDF", "Extractor", "cli", "tools",]
+classifiers = [
+	"Development Status :: 5 - Production/Stable",
+	"Environment :: Console",
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: MIT License",
+	"Natural Language :: English",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: 3.7",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+	"Programming Language :: Python",
+	"Topic :: Internet",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+	"Topic :: Terminals",
+	"Topic :: Utilities",
+]
+dependencies = [
+    "packaging",
+    "pdf2image",
+    "pillow",
+    "PyMuPDF",
+    "PyMuPDFb",
+    "pytesseract",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/juanbindez/lemonpdf"
+"Bug Reports" = "https://github.com/juanbindez/lemonpdf/issues"
+"Read the Docs" = "http://lemonpdf.readthedocs.io/"
+
+[project.scripts]
+lemonpdf = "lemonpdf.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["lemonpdf*"]
+
+[tool.setuptools]
+license-files = ["LICENSE"]

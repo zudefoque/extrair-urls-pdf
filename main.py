@@ -1,8 +1,10 @@
-from extrator import extract_urls_from_pdf
+from lemonpdf import Extractor
 
+pdf_path = 'tabela.pdf'
+output_txt_path = 'domains.txt'
 
-# Example usage
-PDF_PATH = '/caminho/para/seu_arquivo.pdf'  # Substitua pelo caminho correto do seu arquivo PDF
-OUTPUT_PATH = 'urls_extraidas.txt'
+extractor = Extractor(pdf_path=pdf_path, output_txt_path=output_txt_path)
 
-extract_urls_from_pdf(PDF_PATH, OUTPUT_PATH)
+urls = extractor.extract_domains(save=True)
+
+print(urls)

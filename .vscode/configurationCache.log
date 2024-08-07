@@ -1,0 +1,1 @@
+{"buildTargets":["bumpversion-major","bumpversion-minor","bumpversion-patch","ci","clean","clean-build","clean-pyc","deploy-major","deploy-minor","deploy-patch","dev","help","install","pipenv","push_bump","requirements","upload"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
