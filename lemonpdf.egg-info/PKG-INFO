@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: lemonpdf
-Version: 1.0rc8
+Version: 1.0rc9
 Summary: Python3 library to get urls from PDF files.
 Author: zudefoque
 Author-email: Juan Bindez <juanbindez780@gmail.com>
